@@ -77,7 +77,10 @@ export const Hero = () => {
                             <Button size="lg">
                                 Contact Me <ArrowRight className="h-5 w-5" />
                             </Button>
-                            <AnimatedBorderButton />
+                            <AnimatedBorderButton>
+                                <Download className="w-5 h-5"/>
+                                Download Resume
+                            </AnimatedBorderButton>
                         </div>
                         {/* Social Links */}
                         <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
