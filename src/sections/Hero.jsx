@@ -37,7 +37,7 @@ export const Hero = () => {
 
             <div className="absolute inset-0 overflow-hidden pointer-events-auto">
                 {[...Array(30)].map((_,i) => (
-                    <div className="absolute w-1.5 h-1.5 rounded-full opacity-60"
+                    <div key={i} className="absolute w-1.5 h-1.5 rounded-full opacity-60"
                         style={{ backgroundColor:"#20b2a6",
                             left: `${Math.random() * 100}%`,
                             top: `${Math.random() * 100}%`,
