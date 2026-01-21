@@ -33,15 +33,15 @@ export const Projects = () => {
             <div className="container mx-auto px-6 relative z-10">
 
                 <div className="text-center mx-auto max-w-3xl mb-16">
-                    <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Featured Work</span>
+                    <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Deploy Log</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                        Projects that
+                        Code that{" "}
                         <span className="font-serif italic font-normal text-white">
-                            {" "}make an impact.
+                            wins.
                         </span>
                     </h2>
                     <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                        section of recent work
+                        Recent projects and shipped features.
                     </p>
                 </div>
 

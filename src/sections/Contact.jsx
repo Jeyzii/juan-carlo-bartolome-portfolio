@@ -7,17 +7,19 @@ const contactInfo = [
     {    
         icon: Mail,
         label: "Email",
-        value: "email.com",
+        value: "18bartjc@gmail.com",
         href: "mailto:18bartjc@gmail.com",
-    }, {    
-        icon: Phone,
-        label: "Phone",
-        value: "090909",
-        href: "tel:+63099009",
-    }, {    
+    }, 
+    // {    
+    //     icon: Phone,
+    //     label: "Phone",
+    //     value: "090909",
+    //     href: "tel:+63099009",
+    // }, 
+    {    
         icon: MapPin,
         label: "Location",
-        value: "binan laguna",
+        value: "Binan, Laguna, Philippines",
         href: "#",
     },
 ]
@@ -84,15 +86,19 @@ export const Contact = () => {
 
         <div className="container mx-auto px-6 relative z-10"> 
             <div className="text-center mx-auto max-w-3xl mb-16">
-                <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Get in Touch</span>
+                <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
+                    Open Comms
+                </span>
+
                 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                    Let's build {" "}
+                    Initiate{" "}
                     <span className="font-serif italic font-normal text-white">
-                        something great.
+                    Contact
                     </span>
                 </h2>
+
                 <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                    have a project in mind?
+                    Have a project, idea, or mission in mind?
                 </p>
             </div>
 
@@ -185,13 +191,16 @@ export const Contact = () => {
 
                     <div className="glass rounded-3xl p-8 border border-primary/30">
                         <div className="flex items-center gap-3 mb-4">
-                            <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse"/>
-                            <span className="font-medium">Currently Available</span>
+                            <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                            <span className="font-medium tracking-wide uppercase text-sm">
+                            Status: Ready for Next Quest
+                            </span>
                         </div>
                         <p className="text-muted-foreground text-sm">
-                            I'm currently open to new opportunities
+                            Actively available for new missions, collaborations, and high-impact roles.
                         </p>
                     </div>
+
                 </div>
             </div>
         </div>

@@ -1,31 +1,28 @@
 import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 
 const highlights = [
-    {
-        icon: Code2,
-        title: "Clean Code",
-        description:
-            "This project is open source and available on GitHub. Contributions are welcome!",
-    },
-    {
-        icon: Rocket,
-        title: "Performance",
-        description:
-            "This project is open source and available on GitHub. Contributions are welcome!",
-    },
-    {
-        icon: Users,
-        title: "Collaborations",
-        description:
-            "This project is open source and available on GitHub. Contributions are welcome!",
-    },
-    {
-        icon: Lightbulb,
-        title: "Innovations",
-        description:
-            "This project is open source and available on GitHub. Contributions are welcome!",
-    },
+{
+    icon: Code2,
+    title: "Clean Code",
+    description: "Write scalable, maintainable code with strong architecture and clear standards.",
+},
+{
+    icon: Rocket,
+    title: "Performance",
+    description: "Optimized builds, fast loading, and smooth UX—because speed matters.",
+},
+{
+    icon: Users,
+    title: "Collaborations",
+    description: "Team-driven development with strong communication and shared ownership.",
+},
+{
+    icon: Lightbulb,
+    title: "Innovations",
+    description: "Always learning, always improving—bringing new ideas to production.",
+},
 ];
+
 
 export const About = () => {
     return (
@@ -34,24 +31,45 @@ export const About = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                     <div className="animate-fade-in">
-                        <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
+                        <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
+                        Developer Profile
+                        </span>
                     </div>
 
+                    {/* opener */}
                     <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-                        Building the future,
-                        <span className="font-serif italic font-normal text-white"> one component at a time.</span>
+                        Quest:
+                        <span className="font-serif italic font-normal text-white">
+                        {" "}Build. Deploy. Repeat.
+                        </span>
                     </h2>
 
+                    {/* brief description */}
                     <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tempora eum id excepturi praesentium consectetur esse, ducimus sint maxime in. Dolore vitae sapiente nostrum vel harum nam ipsa sed veniam.
+                        Full-Stack Web Developer specializing in the TALL stack. I build scalable apps with clean architecture and secure authentication.
+                        </p>
+                        <p>
+                        I’ve shipped enterprise systems, and I’m currently expanding into MERN for modern JavaScript projects.
                         </p>
                     </div>
 
+                    {/* mission/vision */}
                     <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                         <p className="text-lg font-medium italic text-foreground">
-                            my mission Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ab, perspiciatis dolor asperiores placeat enim saepe veritatis dolores tenetur laborum! Autem rerum officiis quibusdam ut pariatur cupiditate, itaque minus numquam!
+                            Level up every project with better performance, stronger architecture,
+                            and a polished user experience.
                         </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4 mt-6">
+                        <div className="glass p-4 rounded-xl glow-border animate-fade-in animation-delay-300">
+                            <div className="text-xs uppercase text-muted-foreground">Stack Mastery</div>
+                            <div className="text-lg font-medium">TALL</div>
+                        </div>
+                        <div className="glass p-4 rounded-xl glow-border animate-fade-in animation-delay-300">
+                            <div className="text-xs uppercase text-muted-foreground">Current Quest</div>
+                            <div className="text-lg font-medium">MERN Stack</div>
+                        </div>
                     </div>
                 </div>
 
