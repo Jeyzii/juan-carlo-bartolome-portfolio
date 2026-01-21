@@ -197,7 +197,7 @@ export const Contact = () => {
                             </span>
                         </div>
                         <p className="text-muted-foreground text-sm">
-                            Actively available for new missions, collaborations, and high-impact roles.
+                            Actively available for new roles, collaborations, and high-impact roles.
                         </p>
                     </div>
 
