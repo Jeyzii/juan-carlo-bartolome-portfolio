@@ -19,6 +19,7 @@ const skills = [
     "JavaScript",
     "Blade Templating",
     "REST API",
+    "POSTMAN",
     "MVC Architecture",
     "CRUD Operations",
     "Git",

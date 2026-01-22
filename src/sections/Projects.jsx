@@ -1,25 +1,25 @@
 const projects = [
     {
-        title: "Subscriotion Tracker API",
-        description: "",
+        title: "Subscription Tracker API",
+        description: "A robust subscription tracking API built with Node.js, featuring secure JWT authentication and automated email reminders. Designed to help users manage recurring subscriptions, monitor renewal dates, and receive timely notifications for upcoming payments.",
         image: "/projects/project1.png",
-        tags: [""],
+        tags: ["Node.js", "REST API", "Javascript", "Express.js", "Mailer", "JSON Web Token", "MongoDB", "Workflow Management", "Backend"],
         link: "#",
-        github: "#",
+        github: "https://github.com/Jeyzii/subscription-tracker-api",
     },    {
         title: "Content Management System",
-        description: "",
+        description: "A CMS built for publication organizations that enables collaborative content creation with a structured step-by-step approval process. Users can draft, review, and approve content through multiple stages before publishing, ensuring editorial quality and compliance. Includes role-based permissions, version control, feedback comments, and scheduled publishing.",
         image: "/projects/project2.png",
-        tags: [""],
+        tags: ["PHP", "Laravel", "Javascript", "HTML", "Blade", "SCSS", "CSS", "Bootstrap", "MYSQL"],
         link: "#",
-        github: "#",
+        github: "https://github.com/Jeyzii/Kingfisher",
     },    {
         title: "Online Appointment System",
-        description: "",
+        description: "An online booking platform designed for air conditioning service companies to streamline appointment scheduling and improve customer experience. Customers can easily select service type, preferred date/time, and location, while the system assigns technicians based on availability. Includes confirmations, reminders, and a management dashboard for tracking appointments, service status, and customer history.",
         image: "/projects/project3.png",
-        tags: [""],
+        tags: ["PHP", "Bootstrap", "Javascript", "CSS", "HTML", "MYSQL"],
         link: "#",
-        github: "#",
+        github: "https://github.com/Jeyzii/dcoldman",
     },
 ]
 import { ArrowUp, ArrowUpRight, Github } from "lucide-react";
@@ -64,20 +64,24 @@ export const Projects = () => {
 
                             <div className="absolute inset-0 bg-gradient-ti-t from-card via-card/50 to-transparent opacity-60">
                                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <a href={project.link} target="_blank" className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
+                                    {/* <a href={project.link} target="_blank" className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                         <ArrowUpRight className="w-5 h-5"/>
-                                    </a>
-                                    <a href={project.github} target="_blank" className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
+                                    </a> */}
+                                    {/* <a href={project.github} target="_blank" className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                         <Github className="w-5 h-5"/>
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
 
                             <div className="p-6 space-y-4">
                                 <div className="flex items-start justify-between">
                                     <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{project.title}</h3>
-                                    <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1
-                                        group-hover:-translate-y-1 transition-all"/>
+                                    {/* <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1
+                                        group-hover:-translate-y-1 transition-all"/> */}
+                                                                            <a href={project.github} target="_blank" className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
+                                        <Github className="w-5 h-5"/>
+                                    </a>
+                                        
                                 </div>
                                 <p className="text-muted-foreground text-sm">{project.description}</p>
                                 <div className=" flex flex-wrap gap-2">{project.tags.map((tag, tagIdx) => (
