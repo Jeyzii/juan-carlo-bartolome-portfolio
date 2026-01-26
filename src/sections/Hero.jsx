@@ -12,6 +12,7 @@ const skills = [
     "React.js",
     "Node.js",
     "Express.js",
+    "Inertia.js",
     "MongoDB",
     "Firestore",
     "HTML",
@@ -54,7 +55,7 @@ export const Hero = () => {
                     <div className="space-y-8 ">
                         <div className="animate-fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
-                                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />Full Stack Developer ● TALL ● MERN
+                                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />Full Stack Developer ● TALL ● LIRT ● MERN
                             </span>
                         </div>
                         <div className="space-y-4">
@@ -68,7 +69,7 @@ export const Hero = () => {
                                 </span>
                             </h1>
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                                Hi, I'm Juan Carlo Bartolome. A Full-Stack Developer specializing in TALL and MERN stacks, 
+                                Hi, I'm Juan Carlo Bartolome. A Full-Stack Developer specializing in TALL, LIRT, and MERN stacks, 
                                 delivering scalable, production-ready web applications end to end. Results-driven, quality-focused, 
                                 and continuously upskilling to stay ahead of evolving technologies and best practices.
                             </p>

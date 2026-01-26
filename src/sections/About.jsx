@@ -67,8 +67,8 @@ export const About = () => {
                             <div className="text-lg font-medium">TALL</div>
                         </div>
                         <div className="glass p-4 rounded-xl glow-border animate-fade-in animation-delay-300">
-                            <div className="text-xs uppercase text-muted-foreground">Current Quest</div>
-                            <div className="text-lg font-medium">MERN Stack</div>
+                            <div className="text-xs uppercase text-muted-foreground">Current Stack Quest</div>
+                            <div className="text-lg font-medium">MERN | LIRT</div>
                         </div>
                     </div>
                 </div>

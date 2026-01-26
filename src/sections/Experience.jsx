@@ -3,7 +3,7 @@ const experiences = [
         period: "Nov 2023 - Present",
         role: "Web App Developer",
         company: "CaPEx Cargo Padala Express",
-        description: "Full stack developer focused on building and improving web applications with the TALL stack (Tailwind, Alpine.js, Laravel, Livewire). Experienced with Cloud Firestore integration, Checkmobi Flash Missed Call verification, and developing CRM and Order Management systems. Worked in a Agile environment using Scrum, collaborating with cross-functional teams for QA and reliable delivery.",
+        description: "Full-stack web developer specializing in building, optimizing, and scaling business-critical web applications using the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire). Proven experience developing HRIS platforms and internal enterprise systems using the LIRT stack (Laravel, Inertia.js, React, Tailwind), alongside CRM and Order Management solutions. Strong background in Cloud Firestore integration, Checkmobi Flash Missed Call verification, and secure authentication workflows. Experienced in Agile/Scrum environments, collaborating with cross-functional teams to deliver high-quality, production-ready solutions with a focus on performance, reliability, and maintainability.",
         technologies: [
                 "Laravel",
                 "Livewire",
@@ -14,6 +14,7 @@ const experiences = [
                 "JavaScript",
                 "React.js",
                 "Express.js",
+                "Inertia.js",
                 "Node.js",
                 "REST APIs",
                 "API Development",
