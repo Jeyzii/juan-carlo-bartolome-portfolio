@@ -20,6 +20,13 @@ const projects = [
         tags: ["PHP", "Bootstrap", "Javascript", "CSS", "HTML", "MYSQL"],
         link: "#",
         github: "https://github.com/Jeyzii/dcoldman",
+    },{
+        title: "Web-based School Enrollment System",
+        description: "Developed using Laravel & React — parent registration, staff notifications, workflow management, and Excel reports.",
+        image: "/projects/project4.png",
+        tags: ["PHP", "Laravel", "React", "Javascript", "CSS", "HTML", "MYSQL", "REST API", "Tailwind CSS"],
+        link: "#",
+        github: "https://github.com/Jeyzii/student-enrollment-management-system",
     },
 ]
 import { ArrowUp, ArrowUpRight, Github } from "lucide-react";
