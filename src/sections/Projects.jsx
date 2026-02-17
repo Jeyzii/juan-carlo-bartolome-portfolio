@@ -22,7 +22,7 @@ const projects = [
         github: "https://github.com/Jeyzii/dcoldman",
     },{
         title: "Web-based School Enrollment System",
-        description: "Developed using Laravel & React — parent registration, staff notifications, workflow management, and Excel reports.",
+        description: "School Enrollment System is a web-based platform that streamlines student registration by allowing parents to enroll their children online while giving school staff an intuitive dashboard to manage, approve, or reject applications. Built with Laravel (backend) and React + TailwindCSS (frontend), the system features secure authentication, email notifications, real-time status updates, and Excel export for reporting, providing a modern, efficient, and paperless enrollment workflow for educational institutions.",
         image: "/projects/project4.png",
         tags: ["PHP", "Laravel", "React", "Javascript", "CSS", "HTML", "MYSQL", "REST API", "Tailwind CSS"],
         link: "#",
