@@ -1,4 +1,12 @@
 const projects = [
+        {
+        title: "Tipid - Budget app",
+        description: "Tipid - Budget app is a full-stack personal finance app for tracking accounts, categories, transactions (including transfers), budgets, and recurring rules, with reporting and CSV/JSON export. The UI is a React SPA that talks to a Laravel API secured with Sanctum using session cookies and CSRF, designed to deploy on a single HTTPS origin for reliable auth.",
+        image: "/projects/project1.png",
+        tags: ["PHP","Laravel","MySql","React","Typescript","TailwindCss","REST API",],
+        link: "#",
+        github: "https://github.com/Jeyzii/Tipid-budget-app",
+    },
     {
         title: "Subscription Tracker API",
         description: "A robust subscription tracking API built with Node.js, featuring secure JWT authentication and automated email reminders. Designed to help users manage recurring subscriptions, monitor renewal dates, and receive timely notifications for upcoming payments.",
